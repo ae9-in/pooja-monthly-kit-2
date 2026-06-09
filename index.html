@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sacred Samskara – Monthly Pooja Kits</title>
+  
+  <!-- Font Integrations -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600&family=Crimson+Pro:ital,wght@0,200;0,300;0,400;0,600;1,300;1,400&family=Cinzel:wght@400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="src/css/style.css">
+  <link rel="stylesheet" href="src/css/components.css">
+</head>
+<body>
+
+  <!-- Full Screen Site Preloader -->
+  <div id="site-preloader">
+    <div class="loader">
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+      <div class="loader-square"></div>
+    </div>
+    <div class="preloader-text">Loading Sacred Samskara</div>
+  </div>
+
+  <!-- Top Decorative Bar -->
+  <div class="top-strip"></div>
+
+  <!-- NAVIGATION HEADER -->
+  <nav>
+    <a href="#" class="nav-logo">
+      Sacred Samskara
+      <span>Monthly Pooja Kits</span>
+    </a>
+    <div class="nav-right-container">
+      <ul class="nav-links">
+        <li><a href="#about">Why Choose Us</a></li>
+        <li><a href="#kit-contents">Kit Contents</a></li>
+        <li><a href="#plans">Subscription Plans</a></li>
+        <li><a href="#customizer">Custom Kit Builder</a></li>
+        <li><a href="#faq">FAQs</a></li>
+        <li><a href="#dashboard" class="nav-cta" style="background:var(--maroon); color:var(--gold-pale) !important; border:1px solid var(--gold);">Dashboard</a></li>
+      </ul>
+      <button class="theme-toggle-btn" id="theme-toggle-btn" title="Toggle Theme">🌙</button>
+      <button class="menu-toggle" id="mobile-menu-toggle">☰</button>
+    </div>
+  </nav>
+
+  <!-- HERO BANNER -->
+  <section class="hero">
+    <div class="hero-content">
+      <div class="hero-eyebrow">Pure & Sacred Worship Every Day</div>
+      <h1>Monthly Pooja Kit <em>Delivered</em> to Your Doorstep</h1>
+      <p>All your essential pooja items packed conveniently and delivered every month. Never run out of daily worship materials again.</p>
+      
+      <!-- Hero Pricing Tag -->
+      <div style="background:rgba(21,5,5,0.4); border-left:3px solid var(--gold); padding:16px 20px; margin-bottom:32px; border-radius:2px; max-width:420px;">
+        <div style="font-size:13px; color:var(--gold-pale); text-transform:uppercase; letter-spacing:1px; margin-bottom:4px;">Special Subscriber Deal</div>
+        <div style="font-size:24px; font-weight:bold; color:var(--gold-light); font-family:'Cormorant Garamond', serif;">
+          Offer Price: ₹450 <span style="font-size:16px; font-weight:normal; text-decoration:line-through; color:rgba(255,255,255,0.5); margin-left:8px;">MRP ₹665</span>
+        </div>
+        <div style="font-size:14px; color:#A5D6A7; font-weight:600; margin-top:2px;">Save ₹215 Every Month + FREE Delivery</div>
+      </div>
+
+      <div class="hero-buttons">
+        <a href="#plans" class="btn-primary">Order Now</a>
+        <a href="#checkout-monthly" class="btn-outline">Subscribe Monthly</a>
+      </div>
+    </div>
+    <div class="hero-scroll">Scroll to Worship</div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="about" id="about">
+    <div class="about-pattern"></div>
+    <div class="about-inner">
+      <div class="about-image-wrap">
+        <img src="src/assets/images/about_setup.jpg" alt="Traditional Indian Pooja setup" class="about-img">
+        <div class="about-img-frame"></div>
+      </div>
+      <div class="about-text">
+        <span class="eyebrow">Preserving Sacred Rituals</span>
+        <h2>Why Choose Our <em>Monthly Pooja Kit?</em></h2>
+        <p>Never run out of essential pooja items again. Our Monthly Pooja Kit contains carefully packed daily pooja essentials delivered directly to your home every month.</p>
+        <p>We source authentic ingredients to make sure your prayers are conducted with absolute purity and convenience, removing the need for last-minute market runs.</p>
+        
+        <h4 style="font-family:'Cinzel', serif; font-size:13px; color:var(--maroon); margin-bottom:12px; margin-top:24px; letter-spacing:1px;">SUITABLE FOR DEVOTEES IN ALL WALKS OF LIFE:</h4>
+        <div class="about-values" style="margin-top: 12px;">
+          <div class="about-value">
+            <span class="about-value-text"><strong>Daily Pooja</strong> & Family worship</span>
+          </div>
+          <div class="about-value">
+            <span class="about-value-text">Special <strong>Festivals</strong> & gatherings</span>
+          </div>
+          <div class="about-value">
+            <span class="about-value-text"><strong>Home Temples</strong> & Mandirs</span>
+          </div>
+          <div class="about-value">
+            <span class="about-value-text"><strong>Apartment</strong> living setup</span>
+          </div>
+          <div class="about-value">
+            <span class="about-value-text">Convenient for <strong>Senior Citizens</strong></span>
+          </div>
+          <div class="about-value">
+            <span class="about-value-text">Ideal for <strong>Working Professionals</strong></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="section-strip-top"></div>
+
+  <!-- KIT CONTENTS SECTION -->
+  <section class="kit-contents" id="kit-contents" style="background:var(--cream);">
+    <div class="section-header">
+      <span class="eyebrow">Sanctity In Every Box</span>
+      <h2>Monthly Pooja Kit <em>Includes</em></h2>
+      <p>Every single item in your box is measured, quality-tested, and packed with high standards of cleanliness.</p>
+    </div>
+
+    <!-- Official Product Inventory Details Grid -->
+    <div class="plans-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); max-width:1200px; margin: 0 auto 48px;">
+      
+      <!-- Item 1 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/agarbakthi.png" alt="Incense sticks" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Agarbakthi</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">100g</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Premium charcoal-free aromatic sticks. Spreads tranquility and builds peaceful spiritual vibes for daily mandir hours.</p>
+      </div>
+
+      <!-- Item 2 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/camphor.png" alt="Pure Camphor" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Camphor</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">100g</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Pure Bhimseni camphor crystals. Produces a bright, holy fire which cleanses and purifies the surrounding home atmosphere.</p>
+      </div>
+
+      <!-- Item 3 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/deepam_oil.png" alt="Deepam Oil" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Deepam Oil</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">800mL</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Special multi-seed aromatic oil formulation. Burns slowly with a bright, steady, and soothing flame for evening prayers.</p>
+      </div>
+
+      <!-- Item 4 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/dhoop.png" alt="Dhoop Stick" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Dhoop Stick</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">100g</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Traditional herbal incense logs. Gives off a rich, deep, sacred temple fragrance that invites deep concentration and calm.</p>
+      </div>
+
+      <!-- Item 5 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/wicks.png" alt="Cotton Wicks" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Cotton Wicks</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">40 Nos</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Clean, hand-rolled pure cotton threads. Shaped to absorb oil properly, ensuring soot-free, seamless lamp combustion.</p>
+      </div>
+
+      <!-- Item 6 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/kumkum.png" alt="Kumkum packet" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Harshina Kumkuma</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">1 Packet</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Natural skin-friendly vermilion. Sourced directly from sacred locations, ideal for tilak and offering rites.</p>
+      </div>
+
+      <!-- Item 7 -->
+      <div class="plan-card" style="background:var(--ivory); border-color:var(--ivory-deeper); padding:24px; text-align:left; display:block;">
+        <img src="src/assets/images/shuddodaka.png" alt="Brass vessel holy water" style="width:100%; height:160px; object-fit:cover; border:1px solid var(--gold-dim); margin-bottom:16px;">
+        <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:8px;">
+          <h4 style="font-family:'Cormorant Garamond', serif; font-size:22px; color:var(--maroon); font-weight:bold; margin-bottom:0;">Shuddodaka</h4>
+          <span style="font-size:12px; background:var(--gold-dim); color:white; padding:2px 8px; border-radius:2px; font-weight:bold;">1 Bottle</span>
+        </div>
+        <p style="font-size:14px; color:var(--text-mid); line-height:1.5;">Sealed bottle of purified water. Dedicated for traditional achaman and purification rituals before daily prayers.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <div class="section-strip-bottom"></div>
+
+  <!-- PRICING & SUBSCRIPTION PLANS SECTION -->
+  <section class="plans" id="plans">
+    <div class="section-header">
+      <span class="eyebrow">Choose Your Subscription Path</span>
+      <h2>Monthly Pooja Kit <em>Pricing Plans</em></h2>
+      <p>Commit to your spiritual routine with flexible monthly or multi-month packages. Save extra with annual options.</p>
+    </div>
+
+    <!-- Official Pricing Table & Plans Grid -->
+    <div class="plans-grid" style="max-width:1100px; margin: 0 auto 48px;">
+      
+      <!-- Option 1: Monthly Subscription -->
+      <div class="plan-card">
+        <div class="plan-name">Option 1: Monthly Plan</div>
+        <div class="plan-price"><span>₹</span>450</div>
+        <span class="plan-period">per month</span>
+        
+        <div style="font-size:13px; color:var(--sandalwood); margin-bottom: 20px;">
+          MRP: <del>₹665</del> (Save ₹215 every month!)
+        </div>
+
+        <div class="plan-divider"></div>
+        <ul class="plan-items">
+          <li>Auto-renew every month</li>
+          <li>Full 7-Item Pack</li>
+          <li>Free Home Delivery</li>
+          <li>Quality Assured Products</li>
+          <li>Ready-to-Use Pooja Essentials</li>
+        </ul>
+        <a href="#checkout-monthly" class="btn-primary" style="width:100%; text-align:center; display:block;">Subscribe Monthly</a>
+      </div>
+
+      <!-- Option 2: 3-Month Subscription -->
+      <div class="plan-card featured">
+        <div class="plan-badge">Popular Savings</div>
+        <div class="plan-name">Option 2: 3-Month Plan</div>
+        <div class="plan-price"><span>₹</span>1,299</div>
+        <span class="plan-period">Paid Once (Extra Savings)</span>
+        
+        <div style="font-size:13px; color:var(--gold-pale); margin-bottom: 20px;">
+          Equivalent to ₹433 / Month
+        </div>
+
+        <div class="plan-divider"></div>
+        <ul class="plan-items">
+          <li>Delivered every month for 3 months</li>
+          <li>Paid once upfront</li>
+          <li>Extra Savings on base price</li>
+          <li>Free Home Delivery</li>
+          <li>Purity Guaranteed</li>
+        </ul>
+        <a href="#checkout-3month" class="btn-primary" style="width:100%; text-align:center; display:block;">Subscribe 3-Month</a>
+      </div>
+
+      <!-- Option 3: 6-Month Subscription -->
+      <div class="plan-card">
+        <div class="plan-name">Option 3: 6-Month Plan</div>
+        <div class="plan-price"><span>₹</span>2,499</div>
+        <span class="plan-period">Paid Once (Maximum Savings)</span>
+        
+        <div style="font-size:13px; color:var(--sandalwood); margin-bottom: 20px;">
+          Equivalent to ₹416 / Month
+        </div>
+
+        <div class="plan-divider"></div>
+        <ul class="plan-items">
+          <li>Delivered every month for 6 months</li>
+          <li>Paid once upfront</li>
+          <li>Maximum savings option</li>
+          <li>Free Home Delivery</li>
+          <li>Dedicated Devotee Support</li>
+        </ul>
+        <a href="#checkout-6month" class="btn-primary" style="width:100%; text-align:center; display:block;">Subscribe 6-Month</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- INTERACTIVE CUSTOM KIT BUILDER -->
+  <section class="customizer" id="customizer" style="background:var(--ivory-dark); padding:100px 32px;">
+    <div class="section-header">
+      <span class="eyebrow">Custom Pooja Box</span>
+      <h2>Interactive Pooja Kit <em>Customizer</em></h2>
+      <p>Exclude items you already have at home to pro-rate your subscription rate, or build your bespoke daily worship pack dynamically.</p>
+    </div>
+
+    <!-- Custom Builder Interface -->
+    <div class="kit-builder-container" id="builder-interface-container">
+      
+      <!-- Selection Grid -->
+      <div class="builder-selection-pane">
+        <h3>Select Ingredients</h3>
+        <div class="builder-grid-selection" id="builder-items-grid">
+          <!-- Dynamically populated by builder.js -->
+        </div>
+      </div>
+
+      <!-- Live Pricing Preview -->
+      <div class="builder-preview-pane">
+        <div class="preview-title">Bespoke Box Summary</div>
+        
+        <ul class="preview-list" id="builder-preview-list">
+          <!-- Dynamically populated -->
+        </ul>
+
+        <div class="preview-summary">
+          <div class="preview-row">
+            <span>Base Packaging fee:</span>
+            <span id="builder-base-price">₹0</span>
+          </div>
+          <div class="preview-row">
+            <span>Selected Items:</span>
+            <span id="builder-addons-price">₹450</span>
+          </div>
+          <div class="preview-row total">
+            <span>Total / Month:</span>
+            <span id="builder-total-price">₹450</span>
+          </div>
+        </div>
+
+        <button id="subscribe-custom-btn" class="btn-primary" style="width:100%; padding:14px; font-size:14px;">Worship With Custom Kit</button>
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <!-- HOW IT WORKS SECTION -->
+  <section class="how-to" id="how-it-works">
+    <div class="section-header">
+      <span class="eyebrow">Simple & Transparent</span>
+      <h2>How It <em>Works</em></h2>
+      <p>Establish a regular spiritual habit in four easy steps.</p>
+    </div>
+
+    <div class="steps-grid">
+      
+      <!-- Step 1 -->
+      <div class="step-item">
+        <div class="step-num-wrap">
+          <span class="step-num">01</span>
+          <span class="step-icon">📋</span>
+        </div>
+        <div class="step-title">Place Your Order</div>
+        <p class="step-desc">Choose a Monthly, 3-Month, or 6-Month subscription plan, or configure your bespoke box items.</p>
+      </div>
+
+      <!-- Step 2 -->
+      <div class="step-item">
+        <div class="step-num-wrap">
+          <span class="step-num">02</span>
+          <span class="step-icon">💳</span>
+        </div>
+        <div class="step-title">Complete Payment</div>
+        <p class="step-desc">Securely complete your online payment using UPI, Credit/Debit Cards, Net Banking, or Wallets.</p>
+      </div>
+
+      <!-- Step 3 -->
+      <div class="step-item">
+        <div class="step-num-wrap">
+          <span class="step-num">03</span>
+          <span class="step-icon">🚚</span>
+        </div>
+        <div class="step-title">Receive Monthly Delivery</div>
+        <p class="step-desc">Your fresh, pure pooja essentials are packed with care and shipped free to your door every month.</p>
+      </div>
+
+      <!-- Step 4 -->
+      <div class="step-item">
+        <div class="step-num-wrap">
+          <span class="step-num">04</span>
+          <span class="step-icon">🙏</span>
+        </div>
+        <div class="step-title">Continue Worship</div>
+        <p class="step-desc">Perform daily rituals peaceably, without running out of your essential pooja ingredients.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS SECTION (STAGGERED SLIDER INTEGRATION) -->
+  <section class="stagger-testimonials-section" id="testimonials">
+    <div class="section-header">
+      <span class="eyebrow">Devoted Community Voices</span>
+      <h2>Customer <em>Testimonials</em></h2>
+      <p>Hear from families across India who invite purity and convenience into their household mandir.</p>
+    </div>
+
+    <!-- Viewport for Staggered Cards -->
+    <div class="stagger-slider-viewport" id="stagger-testimonials-viewport">
+      <!-- Cards will be dynamically placed by testimonials.js -->
+    </div>
+
+    <!-- Navigation Steppers -->
+    <div class="stagger-controls">
+      <button class="stagger-nav-btn" id="stagger-prev-btn" aria-label="Previous Testimonial">◀</button>
+      <button class="stagger-nav-btn" id="stagger-next-btn" aria-label="Next Testimonial">▶</button>
+    </div>
+  </section>
+
+  <!-- FAQ SECTION -->
+  <section class="faq" id="faq">
+    <div class="section-header">
+      <span class="eyebrow">Clear Your Doubts</span>
+      <h2>Frequently Asked <em>Questions</em></h2>
+      <p>Everything you need to know about our subscription service, shipping, and ingredients.</p>
+    </div>
+
+    <div class="faq-list">
+      
+      <div class="faq-item open">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          What is included in the kit?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          Our Monthly Pooja Kit contains 7 essential products: Agarbakthi 100g, Camphor 100g, Deepam Oil 800mL, Dhoop Stick 100g, Cotton Wicks 40 Nos, Harshina Kumkuma Packet 1 Packet, and Shuddodaka 1 Bottle.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          How often will I receive the kit?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          You will receive your kit once every month. Monthly subscriptions renew automatically. For multi-month subscriptions (3-month or 6-month), you pay once upfront, and we deliver automatically every month.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Can I cancel the subscription?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          Yes. You can cancel, pause, or resume your subscription at any time directly from your Devotee Dashboard. There are no lock-in periods or cancellation fees.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Do you deliver across India?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          Yes, we deliver to households across India. Standard shipping takes 3-5 business days depending on location.
+        </div>
+      </div>
+
+      <div class="faq-item">
+        <button class="faq-question" onclick="toggleFaq(this)">
+          Is shipping free?
+          <span class="faq-toggle">+</span>
+        </button>
+        <div class="faq-answer">
+          Yes, home shipping is 100% free with no hidden courier charges. Purity delivered directly to your doorstep.
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CALL TO ACTION SECTION (MATCHING SPECIFIED IMAGE DESIGN) -->
+  <section class="cta-banner" style="background: var(--maroon-deep); position: relative; overflow: hidden; padding: 100px 32px; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center;">
+    
+    <!-- Centered Om Watermark Background -->
+    <div style="position: absolute; font-size: 450px; color: rgba(255, 255, 255, 0.02); font-weight: normal; top: 50%; left: 50%; transform: translate(-50%, -50%); pointer-events: none; user-select: none; z-index: 0; line-height: 1; font-family: 'Georgia', serif;">ॐ</div>
+    
+    <!-- Content Wrapper -->
+    <div style="position: relative; z-index: 1; max-width: 800px; width: 100%; display: flex; flex-direction: column; align-items: center; gap: 16px;">
+      
+      <span style="font-family: 'Cinzel', serif; font-size: 13px; font-weight: 500; letter-spacing: 4px; text-transform: uppercase; color: var(--gold-light); display: block; opacity: 0.9;">NEVER MISS YOUR DAILY POOJA AGAIN</span>
+      
+      <h2 style="font-family: 'Cormorant Garamond', serif; font-size: clamp(32px, 5vw, 56px); font-weight: 300; color: var(--ivory); line-height: 1.2; margin: 8px 0 16px; letter-spacing: -0.5px;">
+        Never Miss Your <em style="font-style: italic; color: var(--gold-light); font-weight: 400;">Daily Pooja Essentials</em>
+      </h2>
+      
+      <p style="font-size: 18px; color: rgba(250, 243, 232, 0.8); line-height: 1.7; margin-bottom: 24px; font-weight: 300; max-width: 680px;">
+        Subscribe today for just ₹450/month and receive carefully curated pooja items at your doorstep every month — delivered free, all across India.
+      </p>
+      
+      <!-- Phone Callout Box -->
+      <div style="border: 1px solid rgba(201, 150, 42, 0.3); padding: 12px 36px; display: inline-flex; align-items: center; gap: 16px; margin-bottom: 32px; background: rgba(74, 16, 16, 0.3); border-radius: 2px;" class="cta-phone-box">
+        <span style="color: #E91E63; font-size: 20px; display: flex; align-items: center;">📞</span>
+        <a href="tel:8431119696" style="font-family: 'Cormorant Garamond', serif; font-size: 26px; color: var(--gold-light); text-decoration: none; font-weight: 400; letter-spacing: 1.5px;">8431119696</a>
+      </div>
+      
+      <!-- Action Buttons -->
+      <div style="display: flex; gap: 20px; justify-content: center; flex-wrap: wrap; width: 100%;">
+        <a href="#checkout-monthly" class="btn-primary" style="padding: 16px 48px; font-family: 'Cinzel', serif; font-size: 13px; font-weight: 600; letter-spacing: 2px;">ORDER NOW</a>
+        <a href="#plans" class="btn-outline" style="padding: 15px 40px; font-family: 'Cinzel', serif; font-size: 13px; font-weight: 500; letter-spacing: 2px; border-color: rgba(201, 150, 42, 0.6); color: var(--gold-pale);">VIEW SUBSCRIPTION PLANS</a>
+      </div>
+      
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      
+      <div>
+        <span class="footer-brand-name">Sacred Samskara</span>
+        <span class="footer-brand-tagline">Monthly Pooja Kits</span>
+        <p class="footer-brand-desc">Bringing purity, sanctity, and convenience to your daily worship routine. Assured premium materials delivered free every month.</p>
+        <div class="footer-social">
+          <a href="#" class="social-link">f</a>
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">𝕏</a>
+          <a href="#" class="social-link">▶</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Navigation</h4>
+        <ul>
+          <li><a href="#about">Why Choose Us</a></li>
+          <li><a href="#kit-contents">Kit Contents</a></li>
+          <li><a href="#plans">Pricing Plans</a></li>
+          <li><a href="#customizer">Custom Kit Builder</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Legal Policies</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms & Conditions</a></li>
+          <li><a href="#">Shipping Policy</a></li>
+          <li><a href="#">Refund Policy</a></li>
+          <li><a href="#dashboard">Devotee Log In</a></li>
+        </ul>
+      </div>
+
+      <!-- Contact Form & Coordinates -->
+      <div class="footer-col" id="contact">
+        <h4>Contact Desk</h4>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">📞</span>
+          <span class="footer-contact-text">+91 8431119696</span>
+        </div>
+        <div class="footer-contact-item">
+          <span class="footer-contact-icon">✉️</span>
+          <span class="footer-contact-text">support@sacredsamskara.in</span>
+        </div>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <span class="footer-copyright">© 2026 Sacred Samskara. Made with 🙏 in India. Support: 8431119696.</span>
+      <div class="footer-bottom-links">
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- ==================== OVERLAY MODALS PANELS ==================== -->
+
+  <!-- 1. CHECKOUT WIZARD MODAL -->
+  <div class="overlay-modal" id="checkout-modal">
+    <div class="modal-content">
+      <button class="modal-close-btn" id="close-checkout-btn">×</button>
+      <div class="checkout-header">
+        <h3>Secure Pooja Subscription</h3>
+        <span style="font-size:11px; text-transform:uppercase; color:var(--sandalwood);">Purity Sourced & Delivered Monthly</span>
+      </div>
+
+      <!-- Step Progress Stepper -->
+      <div class="checkout-steps">
+        <div class="checkout-step active" id="step-1-indicator">01 Details</div>
+        <div class="checkout-step" id="step-2-indicator">02 Delivery Address</div>
+        <div class="checkout-step" id="step-3-indicator">03 Payment Gateway</div>
+      </div>
+
+      <div class="checkout-body">
+        
+        <!-- Order Bill Summary Card -->
+        <div class="checkout-order-summary" id="checkout-plan-summary">
+          <!-- Dynamic order details populated by checkout.js -->
+        </div>
+
+        <div id="checkout-form-container">
+          
+          <!-- STEP 1: PERSONAL DETAILS -->
+          <div class="checkout-panel active" id="panel-1">
+            <div class="form-group">
+              <label for="checkout-name">Full Name</label>
+              <input type="text" id="checkout-name" class="form-control" placeholder="Priya Sharma" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkout-email">Email Address</label>
+                <input type="email" id="checkout-email" class="form-control" placeholder="priya@example.com" required>
+              </div>
+              <div class="form-group">
+                <label for="checkout-phone">Mobile Number</label>
+                <input type="tel" id="checkout-phone" class="form-control" placeholder="8431119696" required>
+              </div>
+            </div>
+          </div>
+
+          <!-- STEP 2: SHIPPING ADDRESS -->
+          <div class="checkout-panel" id="panel-2">
+            <div class="form-group">
+              <label for="checkout-address">Street Address</label>
+              <input type="text" id="checkout-address" class="form-control" placeholder="Apartment name, Street details" required>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="checkout-city">City</label>
+                <input type="text" id="checkout-city" class="form-control" placeholder="Bangalore" required>
+              </div>
+              <div class="form-group">
+                <label for="checkout-state">State</label>
+                <input type="text" id="checkout-state" class="form-control" placeholder="Karnataka" required>
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="checkout-pincode">Pincode (6-digit)</label>
+              <input type="text" id="checkout-pincode" class="form-control" placeholder="560001" maxlength="6" required>
+            </div>
+          </div>
+
+          <!-- STEP 3: SIMULATED PAYMENT SELECTION -->
+          <div class="checkout-panel" id="panel-3">
+            <label style="display:block; font-size:13px; font-weight:600; margin-bottom:12px; text-transform:uppercase;">Select Payment Option</label>
+            <div class="payment-selector">
+              <div class="payment-method-card selected" data-type="UPI">
+                <span class="payment-method-icon">📱</span>
+                <strong>UPI Payment</strong>
+                <span style="font-size:11px; display:block; color:var(--text-muted);">GPay, PhonePe, Paytm</span>
+              </div>
+              <div class="payment-method-card" data-type="Card">
+                <span class="payment-method-icon">💳</span>
+                <strong>Credit / Debit Card</strong>
+                <span style="font-size:11px; display:block; color:var(--text-muted);">Visa, MasterCard, RuPay</span>
+              </div>
+              <div class="payment-method-card" data-type="NetBanking">
+                <span class="payment-method-icon">🏦</span>
+                <strong>Net Banking</strong>
+                <span style="font-size:11px; display:block; color:var(--text-muted);">SBI, HDFC, ICICI</span>
+              </div>
+              <div class="payment-method-card" data-type="Wallet">
+                <span class="payment-method-icon">💼</span>
+                <strong>Mobile Wallet</strong>
+                <span style="font-size:11px; display:block; color:var(--text-muted);">AmazonPay, PhonePe</span>
+              </div>
+            </div>
+            <p style="font-size:14px; text-align:center; color:var(--text-muted); font-style:italic;">
+              This is a sandbox environment simulating secure payment protocols.
+            </p>
+          </div>
+
+        </div>
+
+        <!-- PAYMENT PROCESSING LOADERS SCREEN -->
+        <div id="pay-loader-screen" class="payment-gateway-loader" style="display:none;">
+          <div class="loader">
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+            <div class="loader-square"></div>
+          </div>
+          <h4 style="font-family:'Cinzel', serif; font-size:16px; color:var(--maroon); margin-bottom:8px;">Processing Sandbox Gateway</h4>
+          <p id="pay-loader-message" style="font-size:14px; color:var(--text-muted);">Connecting to secure server...</p>
+        </div>
+
+        <!-- PAYMENT SUCCESS SCREEN -->
+        <div id="pay-success-screen" style="display:none; text-align:center; padding:32px;">
+          <div class="success-icon-wrap">✓</div>
+          <h3 style="font-family:'Cormorant Garamond', serif; font-size:28px; color:#2E7D32; margin-bottom:8px;">Transaction Successful!</h3>
+          <p style="font-size:15px; color:var(--text-mid); margin-bottom:24px; line-height:1.5;">
+            Pranam. Your subscription has been created and verified. Simulated SMS and Email notifications have been dispatched to your records.
+          </p>
+          
+          <div style="background:var(--ivory); padding:16px; border:1px solid var(--ivory-deeper); margin-bottom:24px; text-align:left; font-size:14px;">
+            <div style="margin-bottom:6px;"><strong>Order Subscription ID:</strong> <span id="success-sub-id" style="font-family:monospace; font-weight:bold;">SUB-000000</span></div>
+            <div style="margin-bottom:6px;"><strong>Pooja Package:</strong> <span id="success-sub-plan">Monthly Kit</span></div>
+            <div><strong>Amount Transacted:</strong> <span id="success-sub-price" style="font-weight:bold; color:var(--maroon-deep);">₹450</span></div>
+          </div>
+
+          <div style="display:flex; gap:12px; justify-content:center;">
+            <button id="success-view-dash-btn" class="btn-primary" style="padding:10px 20px;">Go to Devotee Dashboard</button>
+            <button id="success-close-btn" class="btn-outline" style="padding:10px 20px;">Close Window</button>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Footer Buttons -->
+      <div class="checkout-footer">
+        <button id="checkout-prev-btn" class="btn-outline" style="padding:10px 20px; font-size:12px;">Back</button>
+        <button id="checkout-next-btn" class="btn-primary" style="padding:10px 24px; font-size:12px;">Continue to Address</button>
+      </div>
+
+    </div>
+  </div>
+
+
+  <!-- 2. DEVOTEE CUSTOMER DASHBOARD MODAL -->
+  <div class="overlay-modal" id="dashboard-modal">
+    <div class="modal-content" style="max-width: 900px;">
+      <button class="modal-close-btn" id="close-dashboard-btn">×</button>
+      <div class="dashboard-content-layout" id="dashboard-view-container">
+        <!-- Rendered dynamically by dashboard.js -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- 3. ADMIN PANEL MODAL -->
+  <div class="overlay-modal" id="admin-modal">
+    <div class="modal-content" style="max-width: 1100px;">
+      <button class="modal-close-btn" id="close-admin-btn">×</button>
+      <div class="admin-layout" id="admin-view-container">
+        <!-- Rendered dynamically by admin.js -->
+      </div>
+    </div>
+  </div>
+
+
+  <!-- ==================== FLOATING WIDGETS ==================== -->
+
+  <!-- WhatsApp Float Button -->
+  <a href="https://wa.me/918431119696?text=Hello%2C%20I%20would%20like%20to%20know%20more%20about%20the%20Monthly%20Pooja%20Kit." class="whatsapp-float" target="_blank" title="Chat on WhatsApp">
+    <!-- FontAwesome is not needed, standard SVG whatsapp bubble is simple & premium -->
+    <svg viewBox="0 0 24 24" width="30" height="30" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.095-.369 1.43-.684.34-.314.568-.684.627-.852.099-.272.074-.52-.025-.669-.099-.15-.347-.247-.644-.396zM12 22a9.96 9.96 0 0 1-5.1-.383l-.367-.215-3.791.993 1.011-3.693-.236-.375A9.957 9.957 0 0 1 2 12c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10z"/>
+    </svg>
+  </a>
+
+  <!-- Chatbot Widget System -->
+  <div class="chatbot-widget-container" id="chat-widget-container">
+    <button class="chatbot-toggle-circle" id="chat-widget-toggle" title="Worship Support Assistant">🙏</button>
+    
+    <div class="chatbot-window">
+      <div class="chatbot-header">
+        <div>
+          <span class="chatbot-title">Samskara Support Desk</span>
+          <span class="chatbot-tagline">Devotee Guided Assistant</span>
+        </div>
+        <button id="chat-close-btn" style="background:none; border:none; color:white; font-size:20px; cursor:pointer;">×</button>
+      </div>
+      
+      <div class="chatbot-chat-history" id="chat-history-pane">
+        <!-- Message bubbles populated by chat.js -->
+      </div>
+
+      <div class="chatbot-input-pane">
+        <input type="text" id="chat-user-input" placeholder="Type your prayer query...">
+        <button id="chat-send-btn" class="chatbot-send-btn">➔</button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Core JS Imports -->
+  <script type="module" src="src/js/main.js"></script>
+
+  <!-- Interactive page inline handlers -->
+  <script>
+    // Handle manual hash navigation clicks on index links without reloading
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const href = a.getAttribute('href');
+        if (href !== '#' && (href === '#dashboard' || href === '#admin' || href.startsWith('#checkout'))) {
+          e.preventDefault();
+          window.location.hash = href;
+        }
+      });
+    });
+
+
+  </script>
+</body>
+</html>
