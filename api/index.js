@@ -6,6 +6,7 @@ import path from 'path';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+const projectRoot = path.join(__dirname, '..');
 
 const app = express();
 const PORT = process.env.PORT || 8000;
@@ -207,12 +208,12 @@ app.post('/api/referrals', async (req, res) => {
   }
 });
 
-// Serve static frontend files
-app.use(express.static(__dirname));
+// Serve static frontend files relative to project root (parent folder)
+app.use(express.static(projectRoot));
 
 // Wildcard fallback to serve index.html
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(projectRoot, 'index.html'));
 });
 
 // Start Server listener
